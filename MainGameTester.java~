@@ -1,0 +1,11 @@
+import java.io.IOException;
+import java.io.File;
+
+public class MainGameTester
+{
+  public static void main(String[] args) throws IOException
+  { 
+    MainGameFrame frame = new MainGameFrame();
+    frame.setVisible(true);
+  }
+}
